@@ -124,110 +124,27 @@
         </p>
       </section>
     </div>
-    <div class="section-board-members">
-      <div class="container-regular">
-        <h2 class="heading-2">Meet Our Board Members</h2>
-        <div class="board-members-grid">
-          <div class="board-member">
-            <img src="images/mike-image.png" alt="Mike Melasi image" class="board-member-image">
-            <h3 class="board-member-name">Vice President - <br>Michael Melasi</h3>
-            <button class="bio-button" onclick="openModal('modal1')">View Bio</button>
-          </div>
-          <div class="board-member">
-            <img src="images/beverly-image.png" alt="Beverly Melasi image" class="board-member-image">
-            <h3 class="board-member-name">President - <br>Beverly Melasi</h3>
-            <button class="bio-button" onclick="openModal('modal2')">View Bio</button>
-          </div>
-          <div class="board-member">
-            <img src="images/jenna-image.png" alt="Jenna Melasi image" class="board-member-image">
-            <h3 class="board-member-name">Secretary/Treasurer - <br>Jenna Melasi</h3>
-            <button class="bio-button" onclick="openModal('modal3')">View Bio</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script>
-      function openModal(modalId) {
-        document.getElementById(modalId).style.display = "block";
-      }
-  
-      function closeModal(modalId) {
-        document.getElementById(modalId).style.display = "none";
-      }
-    </script>
-    <!-- Modals -->
-    <div id="modal1" class="modal">
-      <div class="modal-content" style="max-height: 80vh; overflow-y: auto; position: fixed; top: 25%; left: 50%; transform: translate(-50%, -50%);">
-        <span class="close" onclick="closeModal('modal1')">&times;</span>
-        <div style="display: flex; align-items: flex-start;"></div>
-          <img src="images/mike-image.png" alt="John Doe" style="width: 100px; height: 100px; margin-right: 20px;">
-          <div>
-            <h3>Vice President -<br>Michael Melasi</h3>
-            <p>Michael Melasi (former Marine) is a dedicated husband and father of two 
-              elementary-aged children. As the dynamic President of the Dad's Club at his 
-              children's local school, he believes engaged fathers play a crucial role in 
-              education. Michael has created a community where dads feel empowered to be actively 
-              involved, organizing events like campus cleanups, golf tournaments, and local 
-              restaurant meetings to foster connections between fathers, teachers, and the school 
-              community.<br><br>
-              With a wealth of experience in nonprofit management and a passion for literacy, 
-              Michael's leadership and strategic vision have been pivotal in advancing Reading is 
-              Magic's mission. His extensive network and experience in Hillsborough County have the 
-              potential to expand Reading is Magic's influence and impact in Miami-Dade County. His 
-              commitment to enriching children's educational experiences is genuinely inspiring, 
-              ensuring every child can discover the joy of reading. Michael earned his Bachelor's 
-              degree in Software Engineering from The University of Phoenix.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="modal2" class="modal">
-      <div class="modal-content" style="max-height: 80vh; overflow-y: auto; position: fixed; top: 25%; left: 50%; transform: translate(-50%, -50%);">
-        <span class="close" onclick="closeModal('modal2')">&times;</span>
-        <div style="display: flex; align-items: flex-start;"></div>
-          <img src="images/beverly-image.png" alt="Beverly Melasi" style="width: 100px; height: 100px; margin-right: 20px;">
-          <div>
-            <h3>President -<br>Beverly Melasi</h3>
-            <p>Our President and CEO Beverly Melasi-Haag truly believes that "Reading is Magic!" 
-              With over 30 years of experience as a dedicated community leader and educator, 
-              Beverly brings a wealth of knowledge and passion to our organization and a working 
-              knowledge of nonprofit management.<br><br>
-              As a published children's book author and former President of the South Florida 
-              Writers Association, she has been instrumental in fostering a love for reading and 
-              creative writing throughout the South Florida region. Beverly is also a creative 
-              writing instructor who has developed numerous educational programs to empower 
-              families, parents, and children to discover the joy and importance of reading.<br><br>
-              Her passion for literature and commitment to community engagement drive our vision of 
-              making reading accessible and enjoyable for everyone. Beverly earned her Bachelor's 
-              degree in English/Writing from the Union Institute University in Cincinnati, Ohio.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="modal3" class="modal">
-      <div class="modal-content" style="max-height: 80vh; overflow-y: auto; position: fixed; top: 25%; left: 50%; transform: translate(-50%, -50%);">
-        <span class="close" onclick="closeModal('modal3')">&times;</span>
-        <div style="display: flex; align-items: flex-start;"></div>
-          <img src="images/jenna-image.png" alt="Jenna Melasi" style="width: 100px; height: 100px; margin-right: 20px;">
-          <div>
-            <h3>Secretary/Treasurer -<br>Jenna Melasi</h3>
-            <p>Jenna is a devoted wife and mother of two elementary school children. She has years 
-              of experience working for the Hillsborough County Public School System due to her 
-              passion for teaching and learning. She serves as the PTSA Secretary at her children's 
-              school and is on the School Advisory Committee. Jenna actively creates a positive 
-              school climate, bringing together parents, teachers, students, and administration. 
-              Her broad connections and experience in Hillsborough County have the potential to 
-              enhance Reading is Magic's reach and impact in Miami-Dade County.<br><br>
-              Jenna's meticulous attention to detail and financial acumen are vital to the smooth 
-              operation of Reading is Magic. As Secretary/Treasurer, she manages our resources with 
-              expertise and integrity, ensuring transparency and accountability in all our 
-              endeavors. Jenna enjoys spending time with her family and engaging in activities that 
-              promote lifelong learning. Her belief in a robust educational foundation drives her 
-              dedication to impacting every child's future. Jenna earned her Bachelor's degree in 
-              Communications at The University of South Florida. She also earned her Teaching 
-              Certification in Early Education.
-          </div>
-        </div>
+    <div class="section-regular neutral-100">
+      <div class="flex-block">
+        <h1 class="heading-6">About Us</h1>
+        <p id="about-us" class="paragraph-3">Our President and CEO 
+          <strong>Beverly Melasi-Haag</strong> truly believes that "Reading is Magic!" She brings a 
+          wealth of experience as a dedicated community leader and educator. As a published 
+          children’s book author and the former President of the South Florida Writers Association 
+          (SWFA), she has been very instrumental in fostering a love for reading and creative 
+          writing throughout the South Florida region. Her passion for literacy and commitment to 
+          community engagement drives our vision of empowering families, parents, and children to 
+          discover the joy and importance of reading.<br><br>
+          We believe that literacy is the foundation for a brighter future, and we are committed to 
+          making a difference in underserved communities.<br>‍<br>Our vision is simple yet profound: 
+          to create a community where families, educators, and community members connect through 
+          stories, explore the boundless opportunities that books provide, and find their voice 
+          through creative writing. We believe in equipping parents and children with the tools 
+          they need to engage with their communities through reading and creative writing, 
+          nurturing a lifelong love for storytelling and learning.<br><br>At 
+          <em>Reading is Magic</em>, we are committed to being a positive force in the lives of 
+          those we serve, helping build stronger communities, one story at a time.
+        </p>
       </div>
     </div>
     <div class="section-give-miami-day" style="width: 100%; max-width: 100vw; margin: 0 auto; padding: 1rem; text-align: center; background-color: #f9f9f9;">
