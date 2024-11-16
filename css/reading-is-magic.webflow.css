@@ -4885,7 +4885,7 @@ blockquote {
   border: 1px solid #888;
   width: 80%;
   max-width: 500px;
-  max-height: 80vh;  /* Added max height */
+  max-height: 60vh;  /* Added max height */
   border-radius: 8px;
   position: relative;
   top: 50%;
