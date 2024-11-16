@@ -4880,6 +4880,7 @@ blockquote {
 
 .modal-content {
   background-color: white;
+  margin-top: 10%;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
