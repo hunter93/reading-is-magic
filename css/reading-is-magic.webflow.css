@@ -4875,8 +4875,7 @@ blockquote {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4); 
 }
 
 .modal-content {
@@ -4885,11 +4884,13 @@ blockquote {
   border: 1px solid #888;
   width: 80%;
   max-width: 500px;
+  max-height: 80vh;  /* Added max height */
   border-radius: 8px;
-  position: relative;  /* Changed from fixed to relative */
-  top: 80%;           /* Center vertically */
+  position: relative;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow-y: auto;  /* Added scrollbar */
 }
 
 .close {
